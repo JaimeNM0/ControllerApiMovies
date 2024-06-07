@@ -1,0 +1,6 @@
+{
+    "require": {
+        "hmerritt/imdb-api": "^1.2",
+        "symfony/var-dumper": "^6.3"
+    }
+}

@@ -1,0 +1,479 @@
+{
+    "packages": [
+        {
+            "name": "hmerritt/imdb-api",
+            "version": "v1.2.10",
+            "version_normalized": "1.2.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hmerritt/php-imdb-api.git",
+                "reference": "029230ff3eec9c762dcc6239fabbd9cceb68ac6a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hmerritt/php-imdb-api/zipball/029230ff3eec9c762dcc6239fabbd9cceb68ac6a",
+                "reference": "029230ff3eec9c762dcc6239fabbd9cceb68ac6a",
+                "shasum": ""
+            },
+            "require": {
+                "paquettg/php-html-parser": "^2.1",
+                "php": ">=7.1",
+                "tmarois/filebase": "^1.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "2.5.2",
+                "phpunit/phpunit": "9.5.16"
+            },
+            "time": "2023-08-19T14:11:56+00:00",
+            "type": "project",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "hmerritt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Harry Merritt",
+                    "email": "harry@mrrtt.me"
+                }
+            ],
+            "description": "IMDB API that can fetch film data and search results",
+            "keywords": [
+                "api",
+                "film",
+                "imdb",
+                "movie",
+                "search"
+            ],
+            "support": {
+                "issues": "https://github.com/hmerritt/php-imdb-api/issues",
+                "source": "https://github.com/hmerritt/php-imdb-api/tree/v1.2.10"
+            },
+            "install-path": "../hmerritt/imdb-api"
+        },
+        {
+            "name": "paquettg/php-html-parser",
+            "version": "2.2.1",
+            "version_normalized": "2.2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paquettg/php-html-parser.git",
+                "reference": "668c770fc5724ea3f15b8791435f054835be8d5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paquettg/php-html-parser/zipball/668c770fc5724ea3f15b8791435f054835be8d5e",
+                "reference": "668c770fc5724ea3f15b8791435f054835be8d5e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-mbstring": "*",
+                "ext-zlib": "*",
+                "paquettg/string-encode": "~1.0.0",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "infection/infection": "^0.13.4",
+                "mockery/mockery": "^1.2",
+                "phan/phan": "^2.4",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^7.5.1"
+            },
+            "time": "2020-01-20T12:59:15+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "PHPHtmlParser\\": "src/PHPHtmlParser"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gilles Paquette",
+                    "email": "paquettg@gmail.com",
+                    "homepage": "http://gillespaquette.ca"
+                }
+            ],
+            "description": "An HTML DOM parser. It allows you to manipulate HTML. Find tags on an HTML page with selectors just like jQuery.",
+            "homepage": "https://github.com/paquettg/php-html-parser",
+            "keywords": [
+                "dom",
+                "html",
+                "parser"
+            ],
+            "support": {
+                "issues": "https://github.com/paquettg/php-html-parser/issues",
+                "source": "https://github.com/paquettg/php-html-parser/tree/2.2.1"
+            },
+            "install-path": "../paquettg/php-html-parser"
+        },
+        {
+            "name": "paquettg/string-encode",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paquettg/string-encoder.git",
+                "reference": "a8708e9fac9d5ddfc8fc2aac6004e2cd05d80fee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paquettg/string-encoder/zipball/a8708e9fac9d5ddfc8fc2aac6004e2cd05d80fee",
+                "reference": "a8708e9fac9d5ddfc8fc2aac6004e2cd05d80fee",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5.1"
+            },
+            "time": "2018-12-21T02:25:09+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "stringEncode": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gilles Paquette",
+                    "email": "paquettg@gmail.com",
+                    "homepage": "http://gillespaquette.ca"
+                }
+            ],
+            "description": "Facilitating the process of altering string encoding in PHP.",
+            "homepage": "https://github.com/paquettg/string-encoder",
+            "keywords": [
+                "charset",
+                "encoding",
+                "string"
+            ],
+            "support": {
+                "issues": "https://github.com/paquettg/string-encoder/issues",
+                "source": "https://github.com/paquettg/string-encoder/tree/1.0.1"
+            },
+            "install-path": "../paquettg/string-encode"
+        },
+        {
+            "name": "symfony/deprecation-contracts",
+            "version": "v3.3.0",
+            "version_normalized": "3.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/deprecation-contracts.git",
+                "reference": "7c3aff79d10325257a001fcf92d991f24fc967cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/7c3aff79d10325257a001fcf92d991f24fc967cf",
+                "reference": "7c3aff79d10325257a001fcf92d991f24fc967cf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "time": "2023-05-23T14:45:45+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "3.4-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "files": [
+                    "function.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "A generic function and convention to trigger deprecation notices",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../symfony/deprecation-contracts"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.28.0",
+            "version_normalized": "1.28.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "42292d99c55abe617799667f454222c54c60e229"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/42292d99c55abe617799667f454222c54c60e229",
+                "reference": "42292d99c55abe617799667f454222c54c60e229",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "provide": {
+                "ext-mbstring": "*"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "time": "2023-07-28T09:04:16+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.28-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.28.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../symfony/polyfill-mbstring"
+        },
+        {
+            "name": "symfony/var-dumper",
+            "version": "v6.3.6",
+            "version_normalized": "6.3.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/var-dumper.git",
+                "reference": "999ede244507c32b8e43aebaa10e9fce20de7c97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/999ede244507c32b8e43aebaa10e9fce20de7c97",
+                "reference": "999ede244507c32b8e43aebaa10e9fce20de7c97",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1",
+                "symfony/deprecation-contracts": "^2.5|^3",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "symfony/console": "<5.4"
+            },
+            "require-dev": {
+                "ext-iconv": "*",
+                "symfony/console": "^5.4|^6.0",
+                "symfony/http-kernel": "^5.4|^6.0",
+                "symfony/process": "^5.4|^6.0",
+                "symfony/uid": "^5.4|^6.0",
+                "twig/twig": "^2.13|^3.0.4"
+            },
+            "time": "2023-10-12T18:45:56+00:00",
+            "bin": [
+                "Resources/bin/var-dump-server"
+            ],
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "files": [
+                    "Resources/functions/dump.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Component\\VarDumper\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides mechanisms for walking through any arbitrary PHP variable",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "debug",
+                "dump"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/var-dumper/tree/v6.3.6"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../symfony/var-dumper"
+        },
+        {
+            "name": "tmarois/filebase",
+            "version": "v1.0.24",
+            "version_normalized": "1.0.24.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tmarois/Filebase.git",
+                "reference": "b660650472362e45f78d97cb395f09889196d164"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tmarois/Filebase/zipball/b660650472362e45f78d97cb395f09889196d164",
+                "reference": "b660650472362e45f78d97cb395f09889196d164",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.0",
+                "phpunit/phpunit": "5.*",
+                "symfony/yaml": "^3.4"
+            },
+            "suggest": {
+                "symfony/yaml": "Allows Yaml format"
+            },
+            "time": "2019-02-24T22:55:23+00:00",
+            "type": "package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Filebase\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Timothy Marois",
+                    "email": "timothymarois@gmail.com"
+                }
+            ],
+            "description": "A Simple but Powerful Flat File Database Storage.",
+            "homepage": "https://github.com/filebase/Filebase",
+            "keywords": [
+                "database",
+                "document",
+                "file",
+                "file-files",
+                "filebase",
+                "flat",
+                "flat-file",
+                "key-value",
+                "serverless"
+            ],
+            "support": {
+                "issues": "https://github.com/tmarois/Filebase/issues",
+                "source": "https://github.com/tmarois/Filebase/tree/v1.0.24"
+            },
+            "install-path": "../tmarois/filebase"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
